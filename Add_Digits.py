@@ -1,16 +1,10 @@
-def add(x):
+n=int(input())
+while n:
     sum=0
-    while x>0:
-        sum=sum+x%10
-        x=x//10
-    return sum
-t=int(input())
-while t>0:
-    t=add(t)
-    r=t
-    if r<10:
+    while n:
+        sum=sum+n%10
+        n=n//10
+    n=sum
+    if n<10:
         break
-print(r)
-
-
-    
+print(n)
