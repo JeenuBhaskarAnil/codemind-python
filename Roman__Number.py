@@ -1,0 +1,31 @@
+n=int(input())
+l=['M','CM','D','CD','C','XC','L','XL','X','IX','V','IV','I']
+a=[]
+a.append(n//1000)
+n=n%1000
+a.append(n//900)
+n=n%900
+a.append(n//500)
+n=n%500
+a.append(n//400)
+n=n%400
+a.append(n//100)
+n=n%100
+a.append(n//90)
+n=n%90
+a.append(n//50)
+n=n%50
+a.append(n//40)
+n=n%40
+a.append(n//10)
+n=n%10
+a.append(n//9)
+n=n%9
+a.append(n//5)
+n=n%5
+a.append(n//4)
+a.append(n%4)
+s=''
+for i in range(len(l)):
+    s=s+a[i]*l[i]
+print(s)
