@@ -1,4 +1,5 @@
 PYTHON PROJECT USING TKINTER MODULE:
+
 Reach Me 25 is a two-player game where players roll dice to advance on a grid. The first player to reach position 25 wins the game. There are snakes on the board that will send the players back to earlier positions if they land on them.
 -----------------   
 || How to Play ||
@@ -36,6 +37,7 @@ Position 21 sends the player back to position 17.
 Winning the Game: The first player to reach position 25 wins the game. A winning message will be displayed on the board.
 
 Restarting the Game: Click the "restart" button to reset the game and start from the beginning.
+Game Code: 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||REACHME25|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 from tkinter import *
