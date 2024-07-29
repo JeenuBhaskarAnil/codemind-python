@@ -1,4 +1,5 @@
 PYTHON PROJECT USING TKINTER MODULE:
+![image](https://github.com/user-attachments/assets/0ea0e916-b52a-4362-b3f9-9a2a393ab66a)
 
 Reach Me 25 is a two-player game where players roll dice to advance on a grid. The first player to reach position 25 wins the game. There are snakes on the board that will send the players back to earlier positions if they land on them.
 -----------------   
@@ -19,24 +20,30 @@ python your_game_file.py
 || Game Interface ||: The game window will open, displaying the game board, player positions, dice values, and control buttons.
 --------------------
 
+
 Player 1's Turn:
 
 Click the "dice for p1" button to roll the dice for Player 1.
 The rolled value (1, 2, or 3) will be displayed in the "DICE VALUE" section.
 Player 1's position will be updated on the board, and the new position will be displayed below the dice value section.
+
 Player 2's Turn:
 
 Click the "dice for p2" button to roll the dice for Player 2.
 The rolled value (1, 2, or 3) will be displayed in the "DICE VALUE" section.
 Player 2's position will be updated on the board, and the new position will be displayed below the dice value section.
+
 Snakes: If a player's position lands on a snake, the player will be sent back to a designated earlier position:
 
 Position 7 sends the player back to position 3.
 Position 14 sends the player back to position 10.
 Position 21 sends the player back to position 17.
+
 Winning the Game: The first player to reach position 25 wins the game. A winning message will be displayed on the board.
 
+
 Restarting the Game: Click the "restart" button to reset the game and start from the beginning.
+
 Game Code: 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||REACHME25|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -245,6 +252,3 @@ Game Code:
     
     window.mainloop()
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-output:
-![image](https://github.com/user-attachments/assets/0ea0e916-b52a-4362-b3f9-9a2a393ab66a)
